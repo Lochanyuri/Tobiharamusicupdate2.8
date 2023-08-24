@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Music Apk 4.4 ver</title>
+  </head>
+  <body>
+    <div class="box2999">
+      <div class="box1 header">
+        <img
+          style="
+            background: linear-gradient(#2150f8, #f821ee);
+            padding: 5px;
+            height: 33px;
+            width: 31px;
+            border-radius: 5px;
+            border: 0.5px solid white;
+          "
+          onclick="closeBtn()"
+          src="Polish_20230711_175507133.png"
+        />
+        <div class="box999">
+          <i id="topIndro" style="color: white"></i>
+        </div>
+        <img
+          id="editbox"
+          onclick="menuBtn(this)"
+          src="332-3321462_mobile-menu-for-barefoot-resort-vacations-hamburger-menu.png"
+        />
+      </div>
+    </div>
+    <div class="box2 image">
+      <img
+        id="contentImg"
+        width="100%"
+        height="100%"
+        src="ab67616d0000b2731e778b1607b060e3a7d68ea0.jpeg"
+      />
+    </div>
+    <div class="box88">
+      <div style="color: white" class="box3 Songname">
+        <audio
+          id="audioframe"
+          src="7 Years - Lukas Graham  [LyricsVietsub].mp3"
+        ></audio>
+        <h4>Sapientdream Past Lives.mp3</h4>
+        <div class="sildertime">
+          <p id="currentTim">0.00</p>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            id="changeaudio"
+            oninput="changeDuration(this.value)"
+          />
+          <p id="durationTim">3.59</p>
+        </div>
+      </div>
+      <div class="box4 nextprev">
+        <img onclick="prevBtn()" src="7191563.png" />
+        <img
+          id="playbox"
+          onclick="playBtn(this)"
+          name="10860787.png"
+          src="10860787.png"
+        />
+        <img onclick="nextBtn()" src="7191571.png" />
+      </div>
+    </div>
+    <div class="menubox" id="musicplacebox"></div>
+    <div class="obitointro">
+      <img id="obitoimg" width="100%" src="Polish_20230822_085812701.png" />
+    </div>
+    <div class="obitobox">
+      <div class="obitobox1"></div>
+    </div>
+    <div class="popupmessagebox">
+      <p>Enter You Name</p>
+      <input id="visitorsName" placeholder="Enter your Name" type="Text" />
+      <div class="popupbox10">
+        <button id="cancel">No</button>
+        <button id="accept">Done</button>
+      </div>
+    </div>
+    <div class="blurbox"></div>
+    <script src="Musics.js"></script>
+    <script src="function.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

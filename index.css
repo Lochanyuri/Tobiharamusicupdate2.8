@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("ab67616d0000b2731e778b1607b060e3a7d68ea0.jpeg");
+  transition: 0.4s;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.711);
+  z-index: -1;
+}
+.box2999 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-image: url("Polish_20230824_075259147.png");
+  background-size: cover;
+  background-position: center;
+  padding: 2px 0px;
+  height: 7%;
+  box-shadow: 0.9px 0.9px 0.9px 0.3px white;
+  z-index: 5;
+}
+.box2999::before {
+  content: "";
+  position: absolute;
+  padding: 2px 0px;
+  top: 0;
+  left: 0;
+  height: 7%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.831);
+  z-index: 5;
+}
+.header img,
+div {
+  z-index: 6;
+}
+.box1 {
+  width: 95%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box999 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.box1 > img {
+  height: 35px;
+}
+#editbox {
+  background: linear-gradient(#2150f8, #f821ee);
+  padding: 7px;
+  height: 33px;
+  width: 31px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  z-index: 99990;
+}
+.box88 {
+  margin-top: 23%;
+  height: 26%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.9px solid white;
+  background: rgba(0, 0, 0, 0.616);
+}
+.box1 i {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.box2 {
+  margin: 80px auto 0px auto;
+  height: 40%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 > img {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+.box44 {
+  height: 10px;
+  width: 75%;
+  background: white;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+.duration {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(#2150f8, #f821ee);
+  border-radius: 10px;
+}
+.sildertime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  font-family: Sans-Serif;
+}
+.box3 {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2%;
+  font-family: Sans-Serif;
+}
+.box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 3%;
+}
+.box4 > img {
+  width: 13%;
+}
+#changeaudio {
+  width: 78%;
+  background: white;
+}
+/* For WebKit (Chrome, Safari) */
+/* For WebKit (Chrome, Safari) */
+
+/* Styling for the track */
+
+/* Style the circle (thumb) of the range input */
+/* Style the circle (thumb) of the range input */
+
+#playbox {
+  width: 17%;
+}
+.menubox {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#2150f8, #f821ee);
+  width: 79vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  border-left: 2px solid white ;
+  border-right: 2px solid white ;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 30px rgba(255, 255, 255, 0.2);
+  overflow-x: scroll;
+}
+.musicbox {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-family: Sans-Serif;
+  
+  width: 100%;
+  height: 15%;
+  font-size: 13px;
+  background: #35d1fb;
+  padding: 0px 3px 0px 0px;
+  border: 0.5px solid white;
+  color: black;
+  
+}
+.musicbox:hover {
+  color: white;
+  background: #ff0fa2;
+}
+
+@media (min-width: 480px) and (min-height: 853px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 130px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+@media (min-width: 411px) and (min-height: 731px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 110px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+@media (min-width: 375px) and (min-height: 812px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 140px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+.obitointro {
+  position: fixed;
+  top: 37%;
+  left: 100%;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+  font-family: "Poppins", sans-serif;
+  z-index: 9999;
+}
+.obitobox {
+  position: fixed;
+  top: 100%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  z-index: 9999;
+  background: #000000;
+  border-radius: 3%;
+  transition: 0.6s;
+  font-family: "Poppins", sans-serif;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 30px rgba(255, 255, 255, 0.2);
+}
+.obitobox1 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 19px;
+  word-spacing: 3px;
+}
+
+.blurbox {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  height: 92.1vh;
+  width: 100%;
+  background: #000000c9;
+  display: none;
+  
+}
+
+.popupmessagebox {
+  position: fixed;
+  top: -70%;
+  left: 10%;
+  width: 80%;
+  height: 25%;
+  z-index: 2244442;
+  background: white;
+  padding: 6px;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.8s;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.popupmessagebox > input {
+  outline: none;
+  width: 88%;
+  padding: 7px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+  background: #ffffff;
+  color: black;
+}
+.popupbox10 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.popupbox10 > button {
+  width: 30%;
+  height: 100%;
+  padding: 3%;
+  background: #0010e5;
+  color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+  border: 0.6px solid white;
+}
+#spanbox {
+  border: 0.6px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+}
